@@ -5,13 +5,19 @@
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <div class="container">
+  
+  <div class="container" >
     <h1>Page Refresh</h1>
     <label for="interval">Refresh Interval (seconds):</label>
     <input type="number" id="interval" min="1" placeholder="5">
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
-  </div>
+    
+    <div class="button_container"> 
+    <button class="button" role="button">Start</button>
+    <button class="button" role="button">Stop</button>
+    </div>
+      
+  </div> 
+
   <script src="popup.js"></script>
 </body>
 </html>

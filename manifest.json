@@ -5,7 +5,12 @@
     "description": "A Chrome extension to refresh a specific page with a custom interval.",
     "permissions": [
       "activeTab",
-      "storage"
+      "storage",
+      "notifications",
+      "scripting",
+      "webRequest",
+      "nativeMessaging"
+
     ],
     "background": {
       "service_worker": "background.js"
